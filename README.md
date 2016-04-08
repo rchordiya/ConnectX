@@ -1,9 +1,9 @@
 Rohan Chordiya
 
-1.Title:
+### Title:
        Bug in inbound function for negative or out of bound width value
 
-  Description:
+  * Description:
        For negative or out of bound  value the inbound function should
        return false. But for negative width or out of bound width and valid height
        value function return true instead of false.
@@ -16,15 +16,15 @@ Rohan Chordiya
        	 ASSERT_EQ(-1,x.at(-6,4));
        }
 
-2.Title:
+### Title:
       Code Aborted(code dump) if -1 column value is passed through placePiece()
       function
 
-  Description:
+  * Description:
       If -1 value is passed through placePiece() function the core dump message is
       displayed.
 
-3.Title:
+### Title:
       Bug in Inbound loop
-      Description:
+    *  Description:
         for if(at(column,i) == EMPTY && inBounds(column,i) it is not possible to check condition after && loop in placePiece function
