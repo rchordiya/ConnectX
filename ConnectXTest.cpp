@@ -92,6 +92,7 @@ TEST(ConnectXTest, negativesequentialpeicesConstructor )
 	ASSERT_EQ(2,x.at(5,5));
 }
 
+
 TEST(ConnectXTest,exceednumberofpeices)
 {
 	ConnectX x;
